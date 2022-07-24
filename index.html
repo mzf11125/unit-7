@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!-- Written by Muhammad Fatonie, 6 June 2022 -->
+
+<html xml:lang="en" lang="en"
+    xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Health Complaint Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <h1>
+        Health Complaint Form
+    </h1>
+    <form action="http://www.langintro.com/web199/echoform.cgi" method="get">
+
+        <p>Name:</p>
+        
+        <p><input type="text" name="Name" value="Your name"></p>
+
+        <p>Insurance provider:</p>
+        
+        <p><input type="text" name="Insurance" value="Your insurance provider"></p>
+
+        <p>Adress:</p>
+        
+        <p><input type="text" name="Address" value="Your address"></p>
+
+        <p>City:</p>
+        
+        <p><input type="text" name="city" value="Your city"></p>
+
+        <p>Zip Code:</p>
+        
+        <p><input type="text" name="Zip Code" value="Your zip code"></p>
+        
+        <p>Are you:</p>
+        
+        <p><input type="radio" name="areyou" value="male"> Male</p>
+        
+        <p><input type="radio" name="areyou" value="female"> Female</p>
+
+        <p>Blood type:</p>
+
+        <select name="Blood type">
+            <option>A</option>
+            <option>B</option>
+            <option>AB</option>
+            <option>O</option>
+        </select>
+
+        <p>Symptom:</p>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> None</label><br> 
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Mild</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Severe</label><br>
+
+        <p>Complaint: </p>
+        
+        <p><textarea name="Complaint" rows="5" cols="20">Your complaint</textarea></p>
+        
+        <p><input type="submit"></p>
+        
+        <p><input type="reset"></p>
+        
+        </form>
+</body>
+</html>
